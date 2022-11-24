@@ -12,14 +12,14 @@
 
 ## Personnel
 * Who are on this project:
-	* Microsoft:
-		* Project lead
-		* PM
-		* Data scientist(s)
-		* Account manager
+	* Unal:
+		* Project lead: Martin Jaramillo
+		* PM: Martin Jaramillo
+		* Data scientist(s): : Martin Jaramillo
+		* Account manager: : Martin Jaramillo
 	* Client:
-		* Data administrator
-		* Business contact
+		* Data administrator: Client_A 
+		* Business contact: Client_B
 	
 ## Metrics
 * What are the qualitative objectives? (e.g. reduce user churn)
