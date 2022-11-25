@@ -2,7 +2,7 @@
 
 In this document you must describe the tables, collections or files that you are using in the project. You can describe each database and provide UML diagrams for a better design description.
 
-# Database Name 1
+# Database weather_db
 
 Description of the database.
 
