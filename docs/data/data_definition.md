@@ -10,8 +10,8 @@ For each dataset, the links to the sample datasets in the _**Data**_ directory a
 
 | Dataset Name | Original Location | Destination Location  | Data Movement Tools / Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | -----: |
-| Country_emissions | Source: Kaggel | SQL database | [script1.py](link/to/python/script/file/in/Code) | [Dataset 1 Report](link/to/report1)|
-| Country_temperature| Source: ourworldindata | SQL database | [script2.R](link/to/R/script/file/in/Code) | [Dataset 2 Report](link/to/report2)|
+| Country_emissions_raw | Source: Kaggel | SQL database | [data_aquisition.py](https://github.com/majaramillgon/TDSP/blob/master/scripts/preprocessing/data_aquisition.py) | [Dataset 1 Report](link/to/report1)|
+| Country_temperature_raw| Source: ourworldindata | SQL database | [data_aquisition.py](https://github.com/majaramillgon/TDSP/blob/master/scripts/preprocessing/data_aquisition.py) | [Dataset 2 Report](link/to/report2)|
 
 * Country_emissions summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset1 Report.>
 * DCountry_temperature summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset2 Report.> 
