@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "packagename"
 version = "0.1.0"
-description = "Project template for data science projects"
-authors = ["Juan Lara <julara@unal.edu.co>"]
+description = "Project template"
+authors = ["Martin Jaramillo <majaramillogon@unal.edu.co>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
