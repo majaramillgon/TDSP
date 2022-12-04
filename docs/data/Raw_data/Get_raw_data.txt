@@ -1,0 +1,12 @@
+To download the data please follow the instructions outlined below
+
+1. Temperature data set
+Go the the data source on the following link: https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data
+
+Download the data. The zip file contains 3 CSV file. Please select the following only: GlobalLandTemperaturesByCountry.csv
+
+2. Emissions data set
+
+Go the the data source on the following link: https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions
+
+In the link you will find a tabel called Global emissions have not yet peaked. Please lect the DOWNLOAD option to get the csv file called annual-co-emissions-by-region.csv
