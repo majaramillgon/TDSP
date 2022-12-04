@@ -1,32 +1,19 @@
 # Data Dictionary
 # Database weather_db
-The database for this project will be organized into a SQL schema that will contain two tables. The first table will have the data related to the global temperature by country and the second table will have the data from the GHG emissions by country. All the data will be historical data in the form of a time series. 
+The database for this project will be organized into a SQL schema that will contain one table. The table will have the data related to the global temperature and GHG emissions by country. From the years 1949 to 2013. 
 
-The database is still not fully functional and the schema together with the UML diagram will be added latter as the project progress. 
+Please see the datbase schema below:
 
-![UML Diagram](/file/uml/database1)
+| Field       | Type         | Null | Key | Default | Extra          |
+| ---:      | ---:         | ---: | ---: | ---: | ---:          |
+| id          | int(11)      | NO   | PRI | NULL    | auto_increment |
+| Year        | int(11)      | YES  |     | NULL    |                |
+| Country     | varchar(255) | YES  |     | NULL    |                |
+| Emissions   | float        | YES  |     | NULL    |                |
+| Temperature | float        | YES  |     | NULL    |                |
 
-## Table 1: Country_emissions
+## Final data for the anlysis
+* Database name: ql7582498
+* Table name: climate_db
 
-The first table will be composed from information taken from the following source: https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data
-
-The data contains the following columns: 
-
-| column | type | description |
-| --- | --- | --- |
-| dt | DATE| This colums has the date in the YYYY-MM-DD format |
-| AverageTemperature | INT | Contains the average global temperature for a given year in a given country |
-| Country | INT | Contains the country name |
-
-## Table 2: Country_temperature
-
-The first table will be composed from information taken from the following source: https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions
-
-The data contains the following columns: 
-
-| column | type | description |
-| --- | --- | --- |
-| Entity | STR | Contains the country name |
-| Code | INT | Contains the country code |
-| Year | INT | This colums has the date in the YYYY format |
-| Annual_emissions | INT | Contains the emissions on tonCO₂e |
+How to query data using Python: [Link](https://github.com/majaramillgon/TDSP/blob/master/scripts/data_acquisition/Query_data_MySQL.py)
