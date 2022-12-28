@@ -1,2 +1,3 @@
-import numpy as np # For Linear Algebra
-import pandas as pd # To Work With Data
+import numpy as np
+import pandas as pd
+
